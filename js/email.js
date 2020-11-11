@@ -3,17 +3,19 @@
 
 function sendEmailAddress() {
 	var data = JSON.stringify({
-	  "email": document.getElementById("inputEmail").value,
+	  "email": $("#inputEmail").val(),
 	});
 
 	var xhr = new XMLHttpRequest();
 	xhr.withCredentials = false;
 
+	/*
 	xhr.addEventListener("readystatechange", function () {
 	  if (this.readyState === 4) {
 	    console.log(this.responseText);
 	  }
 	});
+	*/
 
 	xhr.open("POST", "https://alcebanewsletter-c774.restdb.io/rest/emails");
 	xhr.setRequestHeader("content-type", "application/json");
@@ -21,5 +23,8 @@ function sendEmailAddress() {
 	xhr.setRequestHeader("cache-control", "no-cache");
 
 	xhr.send(data);
+
+	$('#alert-email').show();
+	return false;
 }
 
