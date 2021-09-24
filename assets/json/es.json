@@ -1,0 +1,21 @@
+{
+"menu_mission":"Misión",
+"menu_features":"Características",
+"menu_contact":"Contacto",
+"menu_dashboard":"Dashboard",
+"brief_desc":"Una innovadora GovTech startup. <br>Inteligencia Artificial ayudando a mantener la Ciudad.",
+"button_us": "Conózcanos",
+"s1_title": "I.A. aplicada al mantenimiento de ciudades",
+"s1_desc": "Desde ALCEBA proponemos la utilización de soluciones tecnólogicas basadas en Inteligencia Artificial y Machine Learning orientadas al procesamiento de imágenes para atacar diferentes problemáticas que los Gobiernos se enfrentan al llevar a cabo tareas de mantenimiento de una Ciudad y sus espacios públicos.<br/>Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de punta que permitan a los Gobiernos beneficiarse de estas tecnologías de manera transparente para que puedan centrar sus esfuerzos en optimizar la planificación y ejecución de tareas.",
+"s2_title": "Detección",
+"s2_desc": "El desafío fundamental en el mantenimiento de una Ciudad es la detección temprana de incidentes. Utilizando I.A. para la deteccion de dichos incidentes se logran amplias mejorias: deteccion continua de incidentes 24x7, reducción en tiempos de respuesta, maximización en la utilización de recursos, métricas en tiempo real, entre otras.",
+"s3_title": "Inteligencia Artificial",
+"s3_desc": "Desarrollamos una técnologia de vanguardia con sobresalientes desempeños en la detección de incidentes en imágenes de la vía pública.",
+"s4_title": "Hardware",
+"s4_desc": "El hardware requerido para la captura de imágenes puede ser facilmente incorporado en vehiculos gubernamentales aprovechando el recorrido diario que realizan.",
+"s5_title": "Software",
+"s5_desc": "Ofrecemos la detección y monitoreo de incidentes que requieran mantenimiento como un servicio transparente para el Gobierno. Permitiendo que éste centre sus esfuerzos en la planificación y optimización de las tareas de mantenimiento del espacio público",
+"mail_1": "Subscríbete para recibir información!",
+"mail_2": "Ingresa tu correo electronico...",
+"mail_3": "Suscribirme"
+}
