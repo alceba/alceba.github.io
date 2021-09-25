@@ -1,10 +1,10 @@
 {
 "menu_mission":"Mission",
 "menu_features":"Features",
-"menu_contact":"Contact us",
+"menu_contact":"Contact Us",
 "menu_dashboard":"Dashboard",
 "brief_desc":"An innovative Gov-Tech Startup.<br>Artificial Intelligence at the service of your City.",
-"button_us": "About us",
+"brief_btn": "About us",
 "s1_title": "A.I. at the service of your City maintenance",
 "s1_desc": "ALCEBA's foundational beliefs promote the adoption of solutions based on Artificial Intelligence and Machine Learning to assist Governments into the transition to an Smart City. ALCEBA provides integral solutions based on images processing to help the public sector into its daily maintenance routines.<br>Our mission is to provide state-of-the-art solutions based on A.I., allowing Governments to transparently leverage this technology and benefit from it. We believe that the proper usage of this technology may boost the overall efficiency by freeing resources and helping the personnel during the planning and execution stages.",
 "s2_title": "Detection",
@@ -17,6 +17,7 @@
 "s5_desc": "We provide a software platform to manage the incidents during their entire life-cycle: from early detection to post-repair control. A clean and easy-to-use platform is a critical requirement in our solution; our goal is to reduce the efforts required during the detection, planning, and execution phases of the maintenance tasks.",
 "mail_1": "Register to receive our news!",
 "mail_2": "Enter your email address...",
-"mail_3": "Subscribe"
+"mail_3": "Subscribe",
+"mail_4": "Thank you for your subscribing!"
 }
 

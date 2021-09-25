@@ -4,7 +4,7 @@
 "menu_contact":"Contacto",
 "menu_dashboard":"Dashboard",
 "brief_desc":"Una innovadora GovTech startup. <br>Inteligencia Artificial ayudando a mantener la Ciudad.",
-"button_us": "Conózcanos",
+"brief_btn": "Conózcanos",
 "s1_title": "I.A. aplicada al mantenimiento de ciudades",
 "s1_desc": "Desde ALCEBA proponemos la utilización de soluciones tecnólogicas basadas en Inteligencia Artificial y Machine Learning orientadas al procesamiento de imágenes para atacar diferentes problemáticas que los Gobiernos se enfrentan al llevar a cabo tareas de mantenimiento de una Ciudad y sus espacios públicos.<br/>Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de punta que permitan a los Gobiernos beneficiarse de estas tecnologías de manera transparente para que puedan centrar sus esfuerzos en optimizar la planificación y ejecución de tareas.",
 "s2_title": "Detección",
@@ -17,5 +17,6 @@
 "s5_desc": "Ofrecemos la detección y monitoreo de incidentes que requieran mantenimiento como un servicio transparente para el Gobierno. Permitiendo que éste centre sus esfuerzos en la planificación y optimización de las tareas de mantenimiento del espacio público",
 "mail_1": "Subscríbete para recibir información!",
 "mail_2": "Ingresa tu correo electronico...",
-"mail_3": "Suscribirme"
+"mail_3": "Suscribirme",
+"mail_4": "Gracias por subscribirte!"
 }
