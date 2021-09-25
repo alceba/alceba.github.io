@@ -14,6 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="js/email.js"></script>
 	<script src="js/lang.js"></script>
 	<style>
@@ -29,7 +30,7 @@
 		
 	</style>
     </head>
-    <body id="page-top" onload="changeLanguage('en')">
+    <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container">
@@ -40,10 +41,11 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_mission" href="#about">Misión</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_features" href="#projects">Características</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_contact" href="#signup">Contacto</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_dashboard" href="https://dashboard.alceba.com">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_mission" href="#about"></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_features" href="#projects"></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_contact" href="#signup"></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" data-langkey="menu_dashboard" href="https://dashboard.alceba.com"></a></li>
+			<script>updateLanguage(["menu_mission", "menu_features", "menu_contact", "menu_dashboard"]);</script>
                         <li class="nav-item" id="lang">
 			    <a class="nav-link" role="button" style="display:inline-block; padding-right:0" onclick="changeLanguage('es')">ES</a>
                             <a class="nav-link" id="lang-bar" role="button" style="display:inline-block; padding-left:0.3rem; padding-top: 0.01rem; padding-bottom: 0.01rem;" onclick="changeLanguage('en')">EN</a>
@@ -56,18 +58,14 @@
         <header class="masthead">
             <div class="container d-flex h-100 align-items-center">
                 <div class="mx-auto text-center">
-
-
-                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-5"><img class="img-fluid" style="width: 95%" src="assets/img/logo/Logo_1_.png" alt="" /></div>
-		</div>
+		    <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+		        <div class="col-5"><img class="img-fluid" style="width: 95%" src="assets/img/logo/Logo_1_.png" alt="" /></div>
+		    </div>
 
                     <h1 class="mx-auto my-0 text-uppercase">ALCEBA</h1>
-                    <h2 class="text-white-50 mx-auto mt-2 mb-5" data-langkey="brief_desc">
-			Una innovadora GovTech startup. <br>
-			Inteligencia Artificial ayudando a mantener la Ciudad.
-		    </h2>
-                    <a class="btn btn-primary js-scroll-trigger" data-langkey="button_us" href="#about">Conózcanos</a>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5" data-langkey="brief_desc"></h2>
+                    <a class="btn btn-primary js-scroll-trigger" data-langkey="brief_btn" href="#about"></a>
+		    <script>updateLanguage(["brief_desc", "brief_btn"]);</script>
                 </div>
             </div>
         </header>
@@ -76,11 +74,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <h2 class="text-white mb-4" data-langkey="s1_title">I.A. aplicada al mantenimiento de ciudades</h2>
-                        <p class="text-white-50" data-langkey="s1_desc">
-                            Desde ALCEBA proponemos la utilización de soluciones tecnólogicas basadas en Inteligencia Artificial y Machine Learning orientadas al procesamiento de imágenes para atacar diferentes problemáticas que los Gobiernos se enfrentan al llevar a cabo tareas de mantenimiento de una Ciudad y sus espacios públicos. <br/>
-Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de punta que permitan a los Gobiernos beneficiarse de estas tecnologías de manera transparente para que puedan centrar sus esfuerzos en optimizar la planificación y ejecución de tareas.
-                        </p>
+                        <h2 class="text-white mb-4" data-langkey="s1_title"></h2>
+                        <p class="text-white-50" data-langkey="s1_desc"></p>
+			<script>updateLanguage(["s1_title", "s1_desc"]);</script>
                     </div>
                 </div>
 		<div class="row" style="height: 150px">
@@ -95,8 +91,9 @@ Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de p
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/ALCEBA_bache detection.png" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4 data-langkey="s2_title">Detección</h4>
-                            <p class="text-black-50 mb-0" data-langkey="s2_desc">El desafío fundamental en el mantenimiento de una Ciudad es la detección temprana de incidentes. Utilizando I.A. para la deteccion de dichos incidentes se logran amplias mejorias: deteccion continua de incidentes 24x7, reducción en tiempos de respuesta, maximización en la utilización de recursos, métricas en tiempo real, entre otras. </p>
+                            <h4 data-langkey="s2_title"></h4>
+                            <p class="text-black-50 mb-0" data-langkey="s2_desc"></p>
+  			    <script>updateLanguage(["s2_title", "s2_desc"]);</script>
                         </div>
                     </div>
                 </div>
@@ -107,8 +104,9 @@ Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de p
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white" data-langkey="s3_title">Inteligencia Artificial</h4>
-                                    <p class="mb-0 text-white-50" data-langkey="s3_desc">Desarrollamos una técnologia de vanguardia con sobresalientes desempeños en la detección de incidentes en imágenes de la vía pública. </p>
+                                    <h4 class="text-white" data-langkey="s3_title"></h4>
+                                    <p class="mb-0 text-white-50" data-langkey="s3_desc"></p>
+				    <script>updateLanguage(["s3_title", "s3_desc"]);</script>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -122,9 +120,9 @@ Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de p
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white" data-langkey="s4_title">Hardware</h4>
-                                    <p class="mb-0 text-white-50" data-langkey="s4_desc">El hardware requerido para la captura de imágenes puede ser facilmente incorporado en vehiculos gubernamentales aprovechando el recorrido diario que realizan.
-</p>
+                                    <h4 class="text-white" data-langkey="s4_title"></h4>
+                                    <p class="mb-0 text-white-50" data-langkey="s4_desc"></p>
+				    <script>updateLanguage(["s4_title", "s4_desc"]);</script>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>
@@ -138,8 +136,9 @@ Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de p
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white" data-langkey="s5_title">Software</h4>
-                                    <p class="mb-0 text-white-50" data-langkey="s5_desc">Ofrecemos la detección y monitoreo de incidentes que requieran mantenimiento como un servicio transparente para el Gobierno. Permitiendo que éste centre sus esfuerzos en la planificación y optimización de las tareas de mantenimiento del espacio público.</p>
+                                    <h4 class="text-white" data-langkey="s5_title"></h4>
+                                    <p class="mb-0 text-white-50" data-langkey="s5_desc"></p>
+				    <script>updateLanguage(["s5_title", "s5_desc"]);</script>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -154,18 +153,20 @@ Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de p
                 <div class="row">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5" data-langkey="mail_1">Subscríbete para recibir información!</h2>
+                        <h2 class="text-white mb-5" data-langkey="mail_1"></h2>
                         <form class="form-inline d-flex" onsubmit="return sendEmailAddress();">
-                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" data-langkey="mail_2" placeholder="Ingresa tu correo electronico..." />
-                            <button class="btn btn-primary mx-auto" type="submit" data-langkey="mail_3" >Suscribirme</button>
+                            <input class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" type="email" data-langkey="mail_2" placeholder="..." />
+                            <button class="btn btn-primary mx-auto" type="submit" data-langkey="mail_3" ></button>
                         </form>
 
-				<div id="alert-email" class="alert alert-success mt-2" role="alert" style="display:none";>
+			<div id="alert-email" class="alert alert-success mt-2" role="alert" style="display:none";>
 				<button type="button" class="close" onclick="$('#alert-email').hide();" >    
-				<span>&times;</span>
+					<span>&times;</span>
 				</button> 
-				<strong>Gracias por subscribirte!</strong></div>
+				<strong data-langkey="mail_4"></strong>
+			</div>
                     </div>
+		    <script>updateLanguage(["mail_1", "mail_2", "mail_3", "mail_4"]);</script>
                 </div>
             </div>
         </section>
@@ -193,7 +194,6 @@ Nuestra misión es ofrecer soluciones de vanguardia apoyadas en tecnología de p
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © ALCEBA 2020</div></footer>
         <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
